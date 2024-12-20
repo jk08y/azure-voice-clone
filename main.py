@@ -39,7 +39,7 @@ def main():
     success = azure_client.synthesize_speech(
         text=test_text,
         output_file="output/test_synthesis.wav",
-        voice_name="en-US-JennyNeural"  # Replace with your custom voice name once created
+        voice_name="en-US-JennyNeural"
     )
     
     if success:

@@ -155,7 +155,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@jk08y](https://github.com/jk08y)
+JK - [@jk08y](https://github.com/jk08y)
 
 Project Link: [https://github.com/jk08y/azure-voice-clone](https://github.com/jk08y/azure-voice-clone)
 

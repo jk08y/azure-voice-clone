@@ -13,6 +13,7 @@ class DatasetPreparation:
         dataset = []
         
         # Get all audio files
+
         audio_files = list(self.audio_dir.glob("*.wav"))
         
         for audio_file in audio_files:

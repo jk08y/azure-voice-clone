@@ -136,7 +136,7 @@ class VoiceSynthesisSystem:
             if output_file is None:
                 timestamp = time.strftime("%Y%m%d-%H%M%S")
                 output_file = f"{self.config.output_dir}/synthesis_{timestamp}.wav"
-            
+ # fixed iteration issue           
             self.logger.info(f"Synthesizing speech using voice: {voice_name}")
             success = self.azure_client.synthesize_speech(
                 text=text,
